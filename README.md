@@ -1,2 +1,2 @@
-# building-makemore
-following Andrej Karpathy's Intro to Language Modeling course
+## building-makemore
+Lecture 1: Created a bigram character level language model- learning how to train the model, sample from the model, and evaluate the quality of the model using the negative log likelihood loss. Trained the model in two completely different ways that actually give the same result. The first way just involved counting up the frequency of all the bigrams and normalizing it. The second way involved using the negative log likelihood loss as a guide to optimize the counts matrix/array so that the loss is minimized in a gradient based framework.
